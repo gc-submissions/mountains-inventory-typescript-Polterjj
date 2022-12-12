@@ -1,23 +1,20 @@
+
 {
-  "name": "ts-lab-1",
+  "name": "typescriptsetupexample",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.ts",
+  "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "ts-node src/index.ts",
-    "start:dev": "nodemon src/index.ts",
     "test": "jest",
-    "test:dev": "jest --watchAll --verbose"
+    "start": "ts-node index.ts",
+    "start:dev": "nodemon index.ts"
   },
-  "author": "Grand Circus Detroit",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^26.0.23",
-    "jest": "^27.0.4",
-    "nodemon": "^2.0.7",
-    "ts-jest": "^27.0.3",
-    "ts-node": "^10.0.0",
-    "typescript": "^4.3.2"
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
   }
 }
